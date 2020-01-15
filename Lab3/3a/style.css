@@ -1,0 +1,17 @@
+table{
+  border: 2px solid green;
+    border-collapse: collapse;
+}
+tbody{
+  border: 1px solid green;
+}
+thead{
+  border: 1px solid green;
+}
+tfoot{
+  border: 1px solid green;
+}
+td, th{
+  border: 1px  solid blue;
+
+}
