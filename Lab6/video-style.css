@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(31, 155, 129);
+}
+h1 {
+  font-family: "Bungee Shade";
+  font-size: 60px;
+  text-shadow: 0 0 10px solid black;
+  padding-top: 15px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#header-title {
+  font-size: 80px;
+  line-height: 10px;
+  /*neon text inspired by Elahe Karami */
+  color: #fff;
+  text-shadow: 0 3px 12px #cb60d8, 0 -3px 12px #cb60d8, -3px 0px 12px #cb60d8,
+    3px 0px 12px #cb60d8;
+  animation: blink 3.5s linear infinite;
+}
+
+@keyframes blink {
+  0%,
+  48%,
+  54% {
+    color: #000000;
+    text-shadow: none;
+  }
+  50%,
+  52% {
+    color: #e8e8e8;
+    text-shadow: 0 3px 12px #cb60d8, 0 -3px 12px #cb60d8, -3px 0px 12px #cb60d8,
+      3px 0px 12px #cb60d8;
+  }
+  56% {
+    color: #fff;
+    text-shadow: 0 3px 20px #46bbf4, 0 -3px 20px #46bbf4, -3px 0px 20px #46bbf4,
+      3px 0px 20px #46bbf4;
+  }
+}
+
+#videos {
+  display: grid;
+  grid-template-columns: auto;
+  grid-row-gap: 20px;
+}
+.caption {
+  padding-top: 30px;
+  font-family: "Bungee Hairline";
+  font-size: 22px;
+  text-align: center;
+}
