@@ -1,0 +1,55 @@
+$flag-height: 400px;
+$aspect-ratio: 16/9;
+$flag-width: $flag-height * $aspect-ratio;
+$stripe-height: $flag-height/13;
+$star-table-width: 0.42* $flag-width;
+$star-table-height: (7/13)* $flag-height;
+$border-thickness: px;
+$border-color: red;
+$star-color: blue;
+
+
+
+td.stripes {
+  height: $stripe-height;
+  width: $flag-width;
+}
+
+#flag_frame{
+  padding-top: 25px;
+}
+
+div>table{
+  box-shadow: 0 15px 50px darkgray;
+}
+
+
+#flag {
+  width: $flag-width;
+  // border: $border-thickness solid $border-color;
+  margin: 0 auto;
+  border-collapse: collapse;
+  
+}
+#starcell{
+  
+  background-color: navy;
+}
+
+#stars{
+  width: $star-table-width;
+  height: $star-table-height;
+  text-align: center;
+  font-size: $flag-height/25;
+  color: white;
+  padding: $flag-height/80;
+}
+
+.red_stripe{
+  
+  background: red;
+}
+
+.white_stripe{
+  background: white;
+}

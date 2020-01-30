@@ -1,0 +1,36 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  border: 1px solid black;
+  text-align: center;
+  border-collapse: collapse;
+  width: 1000px;
+  height: 250px;
+}
+
+tr,
+td {
+  border: 1px solid black;
+}
+
+#HSL td:nth-child(1) {
+  background-color: hsla(209, 71%, 50%, 1);
+}
+
+#RGB td:nth-child(1) {
+  background-color: rgba(68, 189, 105, 1);
+}
+
+@for $i from 2 through 10 {
+  #RGB td:nth-child(#{$i}) {
+    background-color: rgba(68, 189, 105, (10-$i) * 0.1);
+  }
+  #HSL td:nth-child(#{$i}) {
+    background-color: hsla(209, 71%, 50%, (10-$i) * 0.1);
+  }
+}
