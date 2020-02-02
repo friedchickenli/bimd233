@@ -28,73 +28,73 @@ td {
 }
 
 #RGB td:nth-child(2) {
-  background-color: rgba(68, 189, 105, 0.8);
-}
-
-#HSL td:nth-child(2) {
-  background-color: rgba(37, 131, 218, 0.8);
+  background-color: rgba(68, 189, 105, 0.9);
 }
 
 #RGB td:nth-child(3) {
-  background-color: rgba(68, 189, 105, 0.7);
-}
-
-#HSL td:nth-child(3) {
-  background-color: rgba(37, 131, 218, 0.7);
+  background-color: rgba(68, 189, 105, 0.8);
 }
 
 #RGB td:nth-child(4) {
-  background-color: rgba(68, 189, 105, 0.6);
-}
-
-#HSL td:nth-child(4) {
-  background-color: rgba(37, 131, 218, 0.6);
+  background-color: rgba(68, 189, 105, 0.7);
 }
 
 #RGB td:nth-child(5) {
-  background-color: rgba(68, 189, 105, 0.5);
-}
-
-#HSL td:nth-child(5) {
-  background-color: rgba(37, 131, 218, 0.5);
+  background-color: rgba(68, 189, 105, 0.6);
 }
 
 #RGB td:nth-child(6) {
-  background-color: rgba(68, 189, 105, 0.4);
-}
-
-#HSL td:nth-child(6) {
-  background-color: rgba(37, 131, 218, 0.4);
+  background-color: rgba(68, 189, 105, 0.5);
 }
 
 #RGB td:nth-child(7) {
-  background-color: rgba(68, 189, 105, 0.3);
-}
-
-#HSL td:nth-child(7) {
-  background-color: rgba(37, 131, 218, 0.3);
+  background-color: rgba(68, 189, 105, 0.4);
 }
 
 #RGB td:nth-child(8) {
-  background-color: rgba(68, 189, 105, 0.2);
-}
-
-#HSL td:nth-child(8) {
-  background-color: rgba(37, 131, 218, 0.2);
+  background-color: rgba(68, 189, 105, 0.3);
 }
 
 #RGB td:nth-child(9) {
-  background-color: rgba(68, 189, 105, 0.1);
-}
-
-#HSL td:nth-child(9) {
-  background-color: rgba(37, 131, 218, 0.1);
+  background-color: rgba(68, 189, 105, 0.2);
 }
 
 #RGB td:nth-child(10) {
-  background-color: rgba(68, 189, 105, 0);
+  background-color: rgba(68, 189, 105, 0.1);
+}
+
+#HSL td:nth-child(2) {
+  background-color: rgba(37, 131, 218, 0.9);
+}
+
+#HSL td:nth-child(3) {
+  background-color: rgba(37, 131, 218, 0.8);
+}
+
+#HSL td:nth-child(4) {
+  background-color: rgba(37, 131, 218, 0.7);
+}
+
+#HSL td:nth-child(5) {
+  background-color: rgba(37, 131, 218, 0.6);
+}
+
+#HSL td:nth-child(6) {
+  background-color: rgba(37, 131, 218, 0.5);
+}
+
+#HSL td:nth-child(7) {
+  background-color: rgba(37, 131, 218, 0.4);
+}
+
+#HSL td:nth-child(8) {
+  background-color: rgba(37, 131, 218, 0.3);
+}
+
+#HSL td:nth-child(9) {
+  background-color: rgba(37, 131, 218, 0.2);
 }
 
 #HSL td:nth-child(10) {
-  background-color: rgba(37, 131, 218, 0);
+  background-color: rgba(37, 131, 218, 0.1);
 }

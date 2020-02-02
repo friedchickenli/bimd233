@@ -19,18 +19,24 @@ td {
 }
 
 #HSL td:nth-child(1) {
-  background-color: hsla(209, 71%, 50%, 1);
+  background-color: hsl(209, 71%, 50%);
 }
 
 #RGB td:nth-child(1) {
-  background-color: rgba(68, 189, 105, 1);
+  background-color: rgb(68, 189, 105);
 }
 
 @for $i from 2 through 10 {
   #RGB td:nth-child(#{$i}) {
-    background-color: rgba(68, 189, 105, (10-$i) * 0.1);
+    background-color: rgba(68, 189, 105, (11-$i) * 0.1);
   }
+  
+}
+
+
+  
+@for $i from 2 through 10 {
   #HSL td:nth-child(#{$i}) {
-    background-color: hsla(209, 71%, 50%, (10-$i) * 0.1);
+    background-color: hsla(209, 71%, 50%, ((11-$i) * 0.1));
   }
 }
