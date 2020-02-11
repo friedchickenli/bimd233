@@ -1,0 +1,32 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:60px;
+  padding-bottom:60px;
+  
+}
+
+.btn-primary{
+  border-color: #FFD1C3;
+  background-color:#FFD1C3;
+  color:black;
+}
+
+.bg-light{
+  background-color:pink!important;
+}
+
+body{
+  background-color: white;
+}
+.carousel-item{
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+.carousel-inner{
+  height:92.5vh;
+  width:100%;
+  /* margin-bottom:60px; */
+}
