@@ -1,0 +1,41 @@
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fcfced;
+  color:white;
+  font-family: "Avenir", san-serif;
+}
+button{
+  padding: 10px;
+  margin: 40px;
+  outline: none !important;
+  border-radius: 10px;
+-webkit-box-shadow: -2px 9px 16px 1px rgba(0,0,0,0.18);
+-moz-box-shadow: -2px 9px 16px 1px rgba(0,0,0,0.18);
+box-shadow: -2px 9px 16px 1px rgba(0,0,0,0.18);
+}
+
+.box{
+  width: 40%;
+  height: 40%;
+  border-radius: 20px;
+  background: #e8cbc0;
+background: -moz-linear-gradient(top,  #e8cbc0 0%, #636fa4 100%);
+background: -webkit-linear-gradient(top,  #e8cbc0 0%,#636fa4 100%);
+background: linear-gradient(to bottom,  #e8cbc0 0%,#636fa4 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8cbc0', endColorstr='#636fa4',GradientType=0 );
+
+-webkit-box-shadow: 10px 10px 64px 16px rgba(0,0,0,0.18);
+-moz-box-shadow: 10px 10px 64px 16px rgba(0,0,0,0.18);
+box-shadow: 10px 10px 64px 16px rgba(0,0,0,0.18);
+  
+  text-align:center;
+}
+
+h1{
+  font-size: 1.5em;
+}
