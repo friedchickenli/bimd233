@@ -1,11 +1,4 @@
-/* h1 {
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 90pt;
-  text-transform: uppercase;
-  text-shadow: 10px 5px #8ea2ad;
-  
-} */
+
 
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:900");
 
@@ -13,6 +6,7 @@ body {
   scroll-behavior: smooth;
   background: #8ead93;
 }
+
 
 h1 {
   font: 900 120px/0.75 "Source Sans Pro", Arial, sans-serif;

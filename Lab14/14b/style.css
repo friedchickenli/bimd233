@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,600&display=swap');
+
+body{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:'Quicksand';
+
+}
+
+button{
+    padding: 30px;
+    background: #efefbb;
+background: -moz-linear-gradient(top,  #efefbb 0%, #d4d3dd 100%);
+background: -webkit-linear-gradient(top,  #efefbb 0%,#d4d3dd 100%);
+background: linear-gradient(to bottom,  #efefbb 0%,#d4d3dd 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefbb', endColorstr='#d4d3dd',GradientType=0 );
+font-weight: 600;
+font-size:40px;
+color:gray;
+border-radius:10%
+
+}
+
