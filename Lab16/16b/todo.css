@@ -2,11 +2,18 @@
   background-color: black;
   border: 10px solid #4b2e83;
     width: 500px;
+    border-radius: 50px;
+    background: #f6f6ff;
+    box-shadow:  20px 20px 60px #d1d1d9, 
+                 -20px -20px 60px #ffffff;
 }
 
 .panel {
   margin: 20px auto;
   width: 400px;
+}
+.panel-heading{
+  background: transparent;
 }
 
 #selected {
@@ -17,4 +24,14 @@
 #deselected {
   background-color: #b7a57a;
   color: #4b2e83;
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8dbed9;
+  text-align:center;
 }

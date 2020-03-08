@@ -3,15 +3,17 @@
 var lis = document.querySelectorAll("li");
 
 for(var i = 0; i < lis.length; i++){
-   // console.log(lis[1].id);
-   // let e = lis[i];
    
    lis[i].addEventListener("mouseover", function(){
       console.log("mouseover");
+      this.id = 'selected';
+      this.textContent = "Focused!"
    });
 
    lis[i].addEventListener("mouseout", function(){
     console.log("mouseout");
+    this.id = 'deselected';
+    this.textContent = "Not focused"
    });
 
    lis[i].addEventListener("click", function(){

@@ -17,6 +17,8 @@ window.onload = function() {
       if (p1Score === winningScore) {
         p1Display.classList.add("winner");
         gameOver = true;
+        p1Button.classList.remove('btn-default');
+        p1Button.classList.add('btn-success');
       }
       p1Display.textContent = p1Score;
     }
@@ -28,6 +30,7 @@ window.onload = function() {
       if (p2Score === winningScore) {
         p2Display.classList.add("winner");
         gameOver = true;
+        // p1Button = document.querySelector("#p2-win");
       }
       p2Display.textContent = p2Score;
     }
@@ -45,14 +48,22 @@ window.onload = function() {
     p1Display.classList.remove("winner");
     p2Display.classList.remove("winner");
     gameOver = false;
+    winningScoreDisplay.textContent = 5;
+    winningScore = 5;
+    numInput.value = 0;
+    p1Button.classList.remove('btn-success');
+    p2Button.classList.remove('btn-success');
+    p1Button.classList.add('btn-default');
+    p2Button.classList.add('btn-default');
   }
+
 // change the negative number in the one below
 // trap user from typing less than 1
   numInput.addEventListener("change", function() {
     if (this.value > 0) {
       winningScoreDisplay.textContent = this.value;
       winningScore = Number(this.value);
-      reset();
+      // reset();
     }else if(this.value < 0){
       reset();
     }

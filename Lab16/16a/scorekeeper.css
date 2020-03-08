@@ -1,15 +1,20 @@
 .container {
-    background-color: white;
-    border: 10px solid #4b2e83;
+
     width: 500px;
+    border-radius: 50px;
+    background: #f6f6ff;
+    box-shadow:  20px 20px 60px #d1d1d9, 
+                 -20px -20px 60px #ffffff;
   }
   
   .panel {
     margin: 20px auto;
     width: 400px;
+    padding: 20px;
   }
-  h3{
-    background-color:white;
+
+  .panel-heading{
+    background: transparent!important;
   }
   .winner {
     color: green;
@@ -21,4 +26,13 @@
     font-size: 60px;
     color: red;
   }
+body{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8dbed9;
+  text-align:center;
   
+}
