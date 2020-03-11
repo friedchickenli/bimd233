@@ -5,13 +5,23 @@ body {
 .container {
   background: black;
   border: 10px solid #4b2e83;
-  width: 400px;
+  width: 600px;
+  
 }
-
+ul{
+  list-style: katakana;
+}
+li{
+  padding:10px;
+}
 .card {
   margin: 20px auto;
+  
 }
-
+.card-body{
+  background-color: wheat;
+  padding:60px;
+}
 input {
   width: 60%;
 }

@@ -1,9 +1,6 @@
 $(document).ready(function() {
   $("li").css("id", "uw");
-  const states = ["idle", "gather", "process"];
-  var state = states[0];
-  var words = new Array();
-  var ndx = 0;
+
 
   $("ul").on("mouseover", "li", function() {
     console.log("x:" + $(this).text());
@@ -16,9 +13,8 @@ $(document).ready(function() {
 
   // reset button click
   $("button").on("click", function(e) {
-    code = 0;
-    char = 0;
-    words = new Array();
+    $(".list-group").empty();
+    $("input").val("");
   });
 
   // keypress
@@ -26,25 +22,15 @@ $(document).ready(function() {
     var code = e.which;
     var char = String.fromCharCode(code);
     console.log('key:' + code + '\tchar code:' + char);
-    if (e.code == 13){
-      $(this).append()
+    if (code == 13){
+      console.log("helo");
+      var result = $("input").val();
+      $('.list-group').append(`
+      <li>${result}</li>`)
+      $("input").val("");
+
+    
     }
-    // switch (state) {
-    //   // idle
-    //   case "idle":
-    //     if(keypress()===true)
-    //     break;
-
-    //   // gather
-    //   case "gather":
-    //     break;
-
-    //   // process
-    //   case "process":
-    //     break;
-
-    //   default:
-    //     break;
-    // }
+    
   });
 });
