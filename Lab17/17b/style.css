@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  font-family: "Avenir", san-serif;
+}
+
+.container {
+  background-color: black;
+  border: 7px solid #4b2e83;
+  width: 650px;
+  border-radius: 7px;
+}
+li span{
+  display: block;
+}
+.card {
+  margin: 10px auto;
+}
+
+.card-body {
+  background-color: white;
+}
+.card-title {
+  text-align: center;
+}
+
+#even {
+  background-color: white;
+  color: black;
+}
+
+#odd {
+  background-color: lightgray;
+  color: black;
+}
+
+.list-group-item{
+  text-align: center;
+}
